@@ -1,27 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T12:29:29.398Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" version="22.0.4" etag="RivWKBtuIRPMYrYqIakb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T12:48:44.160Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="P25NHtdv67MKWugBJJSP" version="22.0.4" type="github">
   <diagram name="Halaman-1" id="zJpdSAJUHy5nzfpE8PS3">
-    <mxGraphModel>
+    <mxGraphModel dx="2439" dy="2050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="make me flowchart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="48" width="149" height="34" as="geometry" />
+        <mxCell id="YLIzincP_FIx2nhYp5ts-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-450" y="-530" width="95" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="numerical method for integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="84" width="245" height="34" as="geometry" />
+        <mxCell id="YLIzincP_FIx2nhYp5ts-42" value="" style="group" vertex="1" connectable="0" parent="YLIzincP_FIx2nhYp5ts-36">
+          <mxGeometry y="90" width="95" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="filter" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="168" width="45" height="34" as="geometry" />
+        <mxCell id="YLIzincP_FIx2nhYp5ts-31" value="Input" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-42">
+          <mxGeometry x="10" y="70" width="75" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49837806240824245;exitY=1;entryX=0.49901359713807397;entryY=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="YLIzincP_FIx2nhYp5ts-32" value="Mulai" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-42">
+          <mxGeometry width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-42" source="YLIzincP_FIx2nhYp5ts-31" target="YLIzincP_FIx2nhYp5ts-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-33" value="Kalibrasi Sensor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-42">
+          <mxGeometry x="10" y="126" width="75" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-42" source="YLIzincP_FIx2nhYp5ts-31" target="YLIzincP_FIx2nhYp5ts-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-610" y="-236" width="355" height="496" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Band Pass Filter" style="whiteSpace=wrap;strokeWidth=2;" parent="YLIzincP_FIx2nhYp5ts-41" vertex="1">
+          <mxGeometry x="160" width="95" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-9" value="Gauss Laggrande Integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-41">
+          <mxGeometry x="165" y="92" width="85" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="3" target="YLIzincP_FIx2nhYp5ts-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-17" value="Selesai" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-41">
+          <mxGeometry x="160" y="446" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-21" value="Fir Filter" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-41">
+          <mxGeometry y="92" width="85" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="3" target="YLIzincP_FIx2nhYp5ts-21">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="80" y="13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49901359713807397;exitY=1;entryX=0.49462958441840277;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="YLIzincP_FIx2nhYp5ts-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="YLIzincP_FIx2nhYp5ts-28" target="3">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="355" y="256" />
+              <mxPoint x="355" y="13" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-28" value="FFT komparasi dengan Geo Phone" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-41">
+          <mxGeometry x="150" y="216" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="YLIzincP_FIx2nhYp5ts-9" target="YLIzincP_FIx2nhYp5ts-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="207.5" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="YLIzincP_FIx2nhYp5ts-21" target="YLIzincP_FIx2nhYp5ts-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="256.0240000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="43" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="YLIzincP_FIx2nhYp5ts-38" target="YLIzincP_FIx2nhYp5ts-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-38" value="Analisis" style="whiteSpace=wrap;html=1;" vertex="1" parent="YLIzincP_FIx2nhYp5ts-41">
+          <mxGeometry x="158.75" y="326" width="97.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLIzincP_FIx2nhYp5ts-41" source="YLIzincP_FIx2nhYp5ts-28" target="YLIzincP_FIx2nhYp5ts-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLIzincP_FIx2nhYp5ts-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YLIzincP_FIx2nhYp5ts-33" target="3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
