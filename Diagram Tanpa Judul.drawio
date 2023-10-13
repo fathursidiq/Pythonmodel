@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net" modified="2023-10-13T12:29:29.398Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" version="22.0.4" etag="RivWKBtuIRPMYrYqIakb" type="github">
+  <diagram name="Halaman-1" id="zJpdSAJUHy5nzfpE8PS3">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="make me flowchart" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="48" width="149" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="numerical method for integration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="84" width="245" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="filter" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="168" width="45" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49837806240824245;exitY=1;entryX=0.49901359713807397;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49901359713807397;exitY=1;entryX=0.49462958441840277;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
